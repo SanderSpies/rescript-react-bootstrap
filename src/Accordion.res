@@ -63,7 +63,6 @@ module Collapse = {
     ~_as: string=?,
     ~children: React.element,
     ~className: string=?,
-    ~children: React.element,
     ~bsPrefix: string,
   ) => React.element = "Collapse"
 }
