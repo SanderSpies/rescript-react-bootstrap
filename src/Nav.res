@@ -14,7 +14,6 @@ external make: (
   ~onSelect: (~eventKey: string, ~event: ReactEvent.Synthetic.t) => unit=?,
   ~onKeyDown: unit => unit=?,
   ~variant: [#tabs | #pills],
-  ~className: string=?,
   ~children: React.element,
   ~bsPrefix: string=?,
 ) => React.element = "Nav"
