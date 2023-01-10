@@ -12,7 +12,6 @@ external make: (
   ~size: size=?,
   ~_type: buttonType=?,
   ~variant: variant=?,
-  ~className: string=?,
   ~children: React.element,
   ~bsPrefix: string=?,
 ) => React.element = "Button"
