@@ -14,4 +14,5 @@ external make: (
   ~variant: variant=?,
   ~children: React.element,
   ~bsPrefix: string=?,
+  ~onClick: 'a => unit=?,
 ) => React.element = "Button"
