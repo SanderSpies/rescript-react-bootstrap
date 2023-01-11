@@ -10,7 +10,7 @@ external make: (
   ~disabled: bool=?,
   ~href: string=?,
   ~size: size=?,
-  ~_type: buttonType=?,
+  ~\"type": buttonType=?,
   ~variant: variant=?,
   ~children: React.element,
   ~bsPrefix: string=?,
