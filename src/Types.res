@@ -17,6 +17,14 @@ type variant = [
   | #info
   | #dark
   | #light
+  | #"outline-primary"
+  | #"outline-secondary"
+  | #"outline-success"
+  | #"outline-danger"
+  | #"outline-warning"
+  | #"outline-info"
+  | #"outline-dark"
+  | #"outline-light"
 ]
 
 type placement = [
