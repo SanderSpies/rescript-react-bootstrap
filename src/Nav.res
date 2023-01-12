@@ -25,7 +25,7 @@ module Item = {
     ~className: string=?,
     ~children: React.element,
     ~_as: string=?,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Item"
 }
 
