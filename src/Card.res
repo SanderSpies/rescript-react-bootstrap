@@ -18,7 +18,7 @@ module Body = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Body"
 }
 
@@ -28,7 +28,7 @@ module Footer = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Footer"
 }
 
@@ -59,7 +59,7 @@ module ImgOverlay = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "ImgOverlay"
 }
 
@@ -69,7 +69,7 @@ module Link = {
     ~_as: string=?,
     ~href: string,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Link"
 }
 
@@ -79,7 +79,7 @@ module Subtitle = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Subtitle"
 }
 
@@ -89,7 +89,7 @@ module Text = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Text"
 }
 
@@ -99,7 +99,7 @@ module Title = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "Title"
 }
 
@@ -109,7 +109,7 @@ module CardGroup = {
     ~_as: string=?,
     ~className: string=?,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "CardGroup"
 }
 
@@ -119,6 +119,6 @@ module CardColumns = {
     ~_as: string=?,
     ~className: string,
     ~children: React.element,
-    ~bsPrefix: string,
+    ~bsPrefix: string=?,
   ) => React.element = "CardColumns"
 }
