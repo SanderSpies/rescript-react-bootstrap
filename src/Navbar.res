@@ -6,7 +6,7 @@ external make: (
   ~bg: string=?,
   ~expand: [#sm | #md | #lg | #xl | #xxl],
   ~expanded: bool=?,
-  ~fixed: [#top | #bottom],
+  ~fixed: [#top | #bottom]=?,
   ~role: string=?,
   ~variant: [#light | #dark],
   ~collapseOnSelect: bool=?,
