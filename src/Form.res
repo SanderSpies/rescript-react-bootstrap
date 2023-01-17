@@ -74,7 +74,7 @@ module Control = {
     ~_type: string=?,
     ~value: string=?,
     ~className: string=?,
-    ~onChange: ReactEvent.Form.t=?,
+    ~onChange: ReactEvent.Form.t => unit=?,
     ~bsPrefix: string=?,
   ) => React.element = "Control"
 
