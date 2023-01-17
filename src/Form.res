@@ -69,6 +69,7 @@ module Control = {
     ~isValid: bool=?,
     ~isInvalid: bool=?,
     ~plainText: bool=?,
+    ~placeholder: string=?,
     ~readOnly: bool=?,
     ~size: [#sm | #lg]=?,
     ~_type: string=?,
