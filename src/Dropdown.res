@@ -62,7 +62,7 @@ module Item = {
     ~disabled: bool=?,
     ~eventKey: string=?,
     ~href: string=?,
-    ~onClick: ReactEvent.Mouse.t,
+    ~onClick: ReactEvent.Mouse.t => unit=?,
     ~className: string=?,
     ~children: React.element,
     ~bsPrefix: string=?,
