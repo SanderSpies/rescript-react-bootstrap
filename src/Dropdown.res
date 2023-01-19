@@ -84,7 +84,7 @@ module Divider = {
   external make: (
     ~_as: string=?,
     ~className: string=?,
-    ~children: React.element,
-    ~bsPrefix: string,
+    ~children: React.element=?,
+    ~bsPrefix: string=?,
   ) => React.element = "Divider"
 }
